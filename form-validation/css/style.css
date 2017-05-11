@@ -1,0 +1,36 @@
+body {
+  background-color: black;  
+} 
+
+.header {
+  color: white;
+  font-family: 'Lobster Two', sans-seriff;
+  font-size: 3em;
+  text-decoration: underline;
+}
+
+
+
+.buttonLabel {
+  color: #77B1A9;
+  font-size: 1.5em;
+  font-family: 'Oswald', sans-seriff;
+}
+
+input {
+  border-color: black;
+  border-radius: 5px; 
+  width: 15%;
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-seriff;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+.warningLabel {
+  color: red;
+  padding-right: 1em;
+  font-family: 'Roboto', sans-seriff;
+  font-size: 1.4em;
+}
+

@@ -1,0 +1,73 @@
+body {
+  background-color: #77B1A9;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.purpose {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size:1.5em;
+}
+
+.nlogo {
+  width:210px;
+  height:100px;
+}
+.plogo {
+  width:150px;
+  height: 100px;
+}
+#header {
+  color: black;
+  font-size: 4em;
+  text-decoration: underline;
+  font-family: 'Lobster', cursive;
+}
+
+.search{
+  margin-top: 40px;
+}
+.search-icon {
+  font-size: 2em;
+}
+
+.wiki-finder{
+  margin-left:10px;
+  width:400px;
+  height:40px;
+}
+
+.search-btn {
+  font-size: 16px;
+  width:100px;
+  height:40px;
+}
+
+.removed {
+  display: none;
+}
+
+.wikiFrame {
+  margin-top: 20px;
+  width: 800px;
+  height: 450px;
+}
+
+.warning {
+  margin-top: 15px;
+  font-style: italic;
+  font-size: 20px;
+  color: black;
+}
+
+.wikiChanger {
+  background-color:#F8F8F8;
+  color:black;
+  height:42px;
+  border-style: solid;
+  border-color: black;
+}
+
+li {
+  padding-left: 1%;
+  padding-top:.35%
+}

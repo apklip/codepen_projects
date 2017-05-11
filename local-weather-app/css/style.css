@@ -1,0 +1,53 @@
+body {
+  background-color: #4D505B;
+  color: #1FD26A;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.header {
+  font-family: 'Lobster', 'HelveticaNeue-Light', 'sans-serif';
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.info-div {  
+  color: beige;
+  font-family: 'Roboto', 'HelveticaNeue-Light', sans-seriff;
+  font-size: 28px;
+}
+
+.faren {
+  background-color: #FF4D4D;
+  color: white;
+  font-family: "HelveticaNeue-Light", 'Roboto', 'sans-seriff';
+  font-weight: bold;
+}
+
+.celc {
+  background-color: #FF4D4D;
+  color: white;
+  font-family: "HelveticaNeue-Light", 'Roboto', 'sans-seriff';
+  font-weight: bold;
+}
+
+.newIcon {
+  width: 110px;
+  margin: 0;
+  padding: 0;
+}
+
+.converter {
+  background-color: green;
+  color: beige;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+
+
+
+.warning {
+  margin-top: 20px;  
+}
+
+

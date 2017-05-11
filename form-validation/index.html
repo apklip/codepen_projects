@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Form Validation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta charset = 'utf-8' />
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Lobster Two'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Oswald'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- checks for user input in form -->
+
+<body class='container-fluid'>
+  <h1 class='header text-center'> Form Validation Test </h1>
+
+  <form class='text-center validationForm'>
+    <br><br>
+    <!-- Email -->
+    <label for='email'>
+      
+      <span id = 'emailWarn' class = 'warningLabel'></span>
+        <span class = 'buttonLabel'>Email
+        </span>
+      </label>
+    <input name='email' id='email' />
+
+    <br>
+     <!-- Phone -->
+    <label for='phone'>
+      <span class = 'warningLabel' id = 'phoneWarn'></span> 
+        <span class = 'buttonLabel'>Phone</span>
+      </label>
+    <input name='phone' id='phone' />
+
+    <br>
+    
+    <!-- Password -->
+
+    <label for='pass'>
+        <span class = 'buttonLabel'>Password</span>
+      </label>
+    <input name='pass' type='password' id = 'orgPassword'/>
+
+    <br>
+    
+    <!-- Confirm Password -->
+
+    <label for='pass'>
+      <span class = 'warningLabel' id = 'passWarn'></span> 
+        <span class = 'buttonLabel'>Confirm Password</span>
+      </label>
+    <input name='pass' type='password' id = 'confirmedPassword'/>
+
+    <br><br>
+
+    <input type='submit' value='Submit' id='submitButton'></input>
+
+  </form>
+</body>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>WikiNewsViewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Lobster'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto+Condensed'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body class="container-fluid">
+  
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class='row'>
+        <div class="navbar-header col-sm-2">
+          <a class="navbar-brand" href="#">WikiMedia Foundation</a>
+        </div>
+      
+        <ul class="nav navbar-nav col-sm-10">
+          <li class="active">
+            <button id='Wikipedia' class='btn wikiChanger'>Wikipedia</button>
+          </li>
+        
+          <li class="active">
+            <button id='WikiNews' class='btn wikiChanger'>WikiNews</button>
+          </li>
+        
+          <li class="active">
+            <button id='Wiktionary' class='btn wikiChanger'>Wiktionary</button>
+          </li>
+        
+          <li class="active">
+            <button id='Wikibooks' class='btn wikiChanger'>Wikibooks</button>
+          </li>
+        
+          <li class="active">
+            <button id='Wikisource' class='btn wikiChanger'>Wikisource</button>
+          </li>
+ 
+          <li class="active">
+            <button id='Wikiversity' class='btn wikiChanger'>Wikiversity</button>
+          </li>
+        
+          <li class="active">
+            <button id='Wikidata' class='btn wikiChanger'>Wikidata </button>
+          </li>
+          
+          <li class="active">
+            <button id='Wikivoyage' class='btn wikiChanger'>Wikivoyage</button>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    </div>
+ </nav>
+  
+  <div class="top_line">
+    <div class = 'row'>
+      <div class='head'>
+        <h1 id="header" class= 'col-sm-6'>WikipediaViewer</h1>
+      </div>
+      <div class='col-sm-2'></div>
+      <img class="col-sm-1 plogo" src="https://res.cloudinary.com/dpikoejld/image/upload/v1479141604/270px-Wikimedia_logo_text_RGB.svg_xbfvic.png" />
+      <img class="col-sm-1 plogo" src="https://res.cloudinary.com/dpikoejld/image/upload/v1479141291/Wikipedia-logo-v2.svg_vdtnke.png" />
+      <img class = 'col-sm-1 nlogo' src = 'http://res.cloudinary.com/dpikoejld/image/upload/v1478197298/Wikinews-logo_jsdyej.png' />
+    </div>
+    
+    <p class="purpose">Search through the WikiMedia Foundation's various resources. </p>
+    
+    <div class= 'search text-center'>
+      <form>
+        <span class = 'fa fa-search icon search-icon'></span>
+        <input class = 'wiki-finder ' type = 'text' placeholder = 'Subject..'/>
+        <button class = 'btn btn-success search-btn'>Search</button>
+      </form>
+    </div>
+    <div class = 'wikiArt text-center'>
+      <p class = 'warning'></p>
+      <iframe class = 'wikiFrame removed firstWiki'></iframe>
+      <br>
+    
+      <iframe class = 'wikiFrame removed secondWiki'></iframe>
+      <br>
+    
+      <iframe class = 'wikiFrame removed thirdWiki'></iframe>
+      <br>
+    
+      <iframe class = 'wikiFrame removed fourthWiki'></iframe>
+      <br>
+    
+      <iframe class = 'wikiFrame removed fifthWiki'></iframe>
+      <br>
+    </div> 
+    
+  <div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

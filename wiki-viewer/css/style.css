@@ -1,0 +1,65 @@
+body {
+  background-color: #99CC99;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.header {
+  font-size: 5em;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  color: black;
+}
+
+.instruct-top {
+  font-size: 1.5em;
+}
+
+.wikiFinder {
+  margin-top: 5px;
+  background-color: white;
+  height: 30px;
+  width: 250px;
+}
+
+.icon {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.main-form {
+  margin-top: 3px;
+}
+
+.randomizer {
+  margin-bottom: 10px;
+}
+
+.randomBtn {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: white;
+}
+
+.searchBtn {
+  font-size: 16px;
+}
+
+.removed {
+  display: none;
+}
+
+.wikiFrame {
+  margin-top: 20px;
+  width: 800px;
+  height: 450px;
+}
+
+.warning {
+  margin-top: 15px;
+  font-style: italic;
+  font-size: 20px;
+  color: black;
+}

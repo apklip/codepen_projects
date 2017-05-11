@@ -1,0 +1,81 @@
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.col-center{
+  margin:0 auto;
+}
+
+.header {
+  padding-top: 20px;
+  margin: 0;
+  padding-bottom: 60px;
+  font-family: Lobster, sans-seriff;
+  font-size: 3.75em;
+  text-decoration: underline;
+  
+}
+
+#box {
+  height: auto;
+  background-color: white;
+  width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#quoteContent {
+  font-family: 'Roboto Condensed', sans-seriff;
+  font-size: 2em;
+}
+
+#quoteAuthor {
+  font-size: 2em;
+  padding-top: 10px;
+  font-family: 'Roboto Condensed', sans-seriff;
+}
+
+.theButton {
+  width: 10em;
+  height: 4em;
+  border-radius: 10%;
+  color: green;
+  background-color: orange;
+  white-space: normal !important;
+  word-wrap: break-word;
+}
+  
+  
+.btn {
+  appearance: none;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  color: black;
+}
+
+.warning {
+  padding-top: 100px;
+  color:white;
+  font-family: 'Roboto Condensed', san-serif;
+}
+
+.btnTweet {
+  background-color: #00ACEE;
+  font-weight: bold;
+}
+
+i {
+  padding-right: 0.5em;
+}
+
+
+

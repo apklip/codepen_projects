@@ -1,0 +1,160 @@
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  -webkit-appearance: none;
+ 
+}
+
+#navBar {
+  width: 100%;
+  list-style: none;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  border-width: 10px;
+  border-style: ridge;
+  background-color: #d3d3d3;
+  z-index: 10;
+}
+
+li {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+  color: black;
+  opacity: 1.0;
+  font-weight: bold;
+  font-family: Roboto Condensed;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#name {
+  float: right;
+}
+
+#homePage {
+  margin-top: 0;
+  height: 800px;
+  width: 100%;
+  background-image: url('https://s3.amazonaws.com/cdn.atlaswearables.com/blog_banners/officespace.jpg');
+}
+
+
+#introTitle {
+  padding-top: 50px;
+  font-family: 'Lobster', sans-seriff;
+  font-size: 80px;
+}
+
+#subHead {
+  font-family: 'Roboto Condensed', sans-seriff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#contactBar {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.contactInfo {
+  background-color: silver;
+}
+
+
+/* end of home */
+
+#aboutPage {
+  height: 800px;
+  background-image: url('http://www.wvayc.com/v2-l/decozt.com/wp-content/uploads/2014/08/furniture-headboards-table-kids-desks-wall-mounted-desk-pine-minimalist-antique-canada-bookcase-black-glass-sale-dark-and-hutch-folding-urban-desk-roll-top-desks-l-for-kids-hideaway-desks-2-person-interi.jpg');
+}
+
+#padRow {
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+#aboutHeading {
+  font-family: 'Lobster', sans-seriff;
+  font-size: 65px;
+  margin-top: 0;
+  text-decoration: underline;
+  padding-left: 30px;
+  padding-top: 4px;
+}
+
+.aboutParagraphs {
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-seriff;
+  font-weight: bold;
+  padding: 0;
+  z-index: 20;
+  padding-left: 20px;
+}
+
+
+/* about page ends */
+
+#portPage {
+  height: 800px;
+  background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfsIprBxaNcnJ_7hu1ggAO8HpmZO-BZwGYIKXUHOVMLlkgf8Ah');
+}
+
+#portIntro {
+  margin-top: 0;
+  font-family: 'Lobster', sans-seriff;
+  font-size: 80px;
+  padding-top: 30px;
+  text-decoration: underline;
+  color: #C63D0F;
+  font-weight: bold;
+}
+
+#portDesc {
+  font-family: 'Roboto Condensed', sans-seriff;
+  font-size: 25px;
+  color: #FDF3E7;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+.portImage {
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+
+/* done with portfolio */
+
+#contactPage {
+  height: 250px;
+  background-image: url('http://www.reklam216.com/wp-content/uploads/2014/08/download-hd-backgrounds-abstract-photo-hd-backgrounds.jpg');
+}
+
+.contactUl {
+  padding-top: 20px;
+}
+
+#contactText {
+  font-family: 'Roboto Condensed', 'sans-seriff';
+  font-size: 60px;
+  color: #7E8F7C;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#emailCon {
+  font-family: 'Roboto Condensed', 'sans-seriff';
+  font-size: 40px;
+  color: #7E8F7C;
+}

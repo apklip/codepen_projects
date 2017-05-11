@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wiki Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body class = 'container-fluid'>
+  <h1 class = 'text-center header'> Wiki Viewer </h1> 
+  
+   <!-- random button -->
+  <div class = 'randomizer text-center'>
+    
+     <a href = '#' class = 'randomLink'>
+       <button class = 'randomBtn btn btn-info'> 
+         Random Article
+       </button>
+     </a>
+    
+  </div>
+  
+  <!-- article search -->
+
+  <form class = 'text-center main-form'>
+    <span class = 'fa fa-search icon'></span>
+    
+    <input class = 'wikiFinder' type = 'text' placeholder = 'Type Article Name Here..'/> 
+    
+    <button class = 'btn btn-success searchBtn'>Search</button>
+  
+  </form>
+  
+    
+  <div class = 'wikiArt text-center'>
+    <p class = 'warning'></p>
+    <iframe class = 'wikiFrame removed firstWiki'></iframe>
+    <br>
+    
+    <iframe class = 'wikiFrame removed secondWiki'></iframe>
+    <br>
+    
+    <iframe class = 'wikiFrame removed thirdWiki'></iframe>
+    <br>
+    
+    <iframe class = 'wikiFrame removed fourthWiki'></iframe>
+    <br>
+    
+    <iframe class = 'wikiFrame removed fifthWiki'></iframe>
+    <br>
+  </div> 
+  
+</body>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
