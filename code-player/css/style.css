@@ -1,0 +1,125 @@
+body {
+  color: white;
+  background-color: black;
+}
+
+* {
+	 	 font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	 	 margin:0;
+	 	 padding:0;
+  background-color: black;
+  font-size: 15px;
+}
+
+body, html {
+	 	 height:100%;
+	 	 width:100%;
+}
+
+#container {
+	 	 height:100%;
+}
+	 	
+ #titlebar {
+   width:100%;
+   background-color:#000000;
+   border-bottom:1px solid grey;
+   height:40px;
+ }
+
+ #title {
+   padding:10px 0 0 20px;
+   font-weight:bold;
+   float:left;
+ }
+
+ #menu {
+   margin:0 auto;
+   width:220px;
+   padding:5px;
+ }
+ 
+#menu ul {
+  border-radius:5px;
+  height:30px;
+ }
+
+ #menu li {
+   float:left;
+   list-style:none;
+   height:20px;
+   padding:5px 10px;
+ }
+
+ .break {
+   clear:both;
+ }
+
+ .codecontainer {
+   width:50%;
+	 float:left;		
+	 position:relative;
+   background-color: silver;
+   color: black;
+ }
+ 
+ .code {
+   width:100%;
+   height:100%;
+   border-left: 1px solid grey;
+	 -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding:10px;
+   background-color: white;
+   color: black;
+ }
+
+ #cssContainer, #jsContainer {
+   display:none;
+ }
+
+ .containerTitle {
+   position:absolute;
+   right:20px;
+   top:10px;
+   background-color:#FFF;
+   padding:4px;
+   border:1px solid grey;
+   border-radius:4px;
+ }
+
+ 
+ 
+ #runButton {
+   float:right;
+   margin:5px 20px 0 0;
+ }
+
+ #run {
+   font-size:130%;
+   width: 110%;
+   padding:0 20px;
+   margin-right: 20px;
+ }
+
+ #resultFrame {
+   width:100%;
+   height:100%;
+   border:0;
+   border-left:1px solid grey;
+   background-color: white;
+ }
+
+ .resultContainer {
+   height:100%;
+ 	 	
+ }
+
+ textarea {
+   border:none;
+   resize: none;
+   font-family:monotype;
+   font-size:100%;
+ }
